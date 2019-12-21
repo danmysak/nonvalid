@@ -1,0 +1,28 @@
+{
+  "name": "nonvalid",
+  "version": "0.1.0",
+  "description": "Simple callback-based JSON validator for complex use-cases",
+  "main": "nonvalid.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danmysak/nonvalid.git"
+  },
+  "keywords": [
+    "JSON",
+    "schema",
+    "validation"
+  ],
+  "author": "Danylo Mysak <danmysak@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danmysak/nonvalid/issues"
+  },
+  "homepage": "https://github.com/danmysak/nonvalid",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "random-seed": "^0.3.0"
+  }
+}
