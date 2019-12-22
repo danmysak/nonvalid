@@ -1,3 +1,5 @@
+'use strict';
+
 const matchers = {
     number: v => typeof v === 'number' && isFinite(v),
     string: v => typeof v === 'string',

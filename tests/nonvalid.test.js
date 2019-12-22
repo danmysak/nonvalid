@@ -1,4 +1,6 @@
-const nonvalid = require('./nonvalid');
+'use strict';
+
+const nonvalid = require('../src/nonvalid');
 const random = require('random-seed');
 
 function serialize(object) {

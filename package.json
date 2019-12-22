@@ -1,9 +1,12 @@
 {
   "name": "nonvalid",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Simple callback-based JSON validator for complex use-cases",
-  "main": "nonvalid.js",
+  "main": "dist/nonvalid.cjs.js",
+  "module": "dist/nonvalid.esm.js",
   "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "rollup -c",
     "test": "jest"
   },
   "repository": {
@@ -22,7 +25,11 @@
   },
   "homepage": "https://github.com/danmysak/nonvalid",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.0",
     "jest": "^24.9.0",
-    "random-seed": "^0.3.0"
+    "random-seed": "^0.3.0",
+    "rimraf": "^3.0.0",
+    "rollup": "^1.27.13",
+    "rollup-plugin-babel-minify": "^9.1.1"
   }
 }
