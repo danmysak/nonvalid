@@ -386,7 +386,7 @@ function createInstance() {
                     safeDepth--;
                 }
                 if (!matchers.object(v) || !hasProperty(v, privateSymbols.unwrap)) {
-                    resetAndThrow('Callback didn’t perform traversal or didn’t return its result');
+                    resetAndThrow('Callback didn’t perform navigation or didn’t return its result');
                 }
                 return matcher(v[privateSymbols.unwrap]);
             } else {

@@ -1,6 +1,6 @@
 {
   "name": "nonvalid",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "Simple callback-based JSON validator for complex use-cases",
   "main": "dist/nonvalid.cjs.js",
   "module": "dist/nonvalid.esm.js",

@@ -636,7 +636,7 @@ describe('navigation', () => {
     });
 
     test('safe, unreturned', () => {
-        const UNRETURNED = 'Callback didn’t perform traversal or didn’t return its result';
+        const UNRETURNED = 'Callback didn’t perform navigation or didn’t return its result';
         {
             const nv = nonvalid.instance();
             expect(() => nv(123, () => {
