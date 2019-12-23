@@ -1,6 +1,6 @@
 {
   "name": "nonvalid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple callback-based JSON validator for complex use-cases",
   "main": "dist/nonvalid.cjs.js",
   "module": "dist/nonvalid.esm.js",
@@ -14,9 +14,23 @@
     "url": "https://github.com/danmysak/nonvalid.git"
   },
   "keywords": [
+    "validation",
+    "comparison",
+    "valid",
+    "invalid",
+    "non-valid",
+    "custom",
     "JSON",
     "schema",
-    "validation"
+    "recursive",
+    "recursion",
+    "self-referential",
+    "callback",
+    "type",
+    "error",
+    "object",
+    "array",
+    "symbol"
   ],
   "author": "Danylo Mysak <danmysak@gmail.com>",
   "license": "MIT",
