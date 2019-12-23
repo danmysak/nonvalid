@@ -276,6 +276,8 @@ nv(['#ff0000', '#000000'], [
 
 Note the [`nv.end`](#nv-end) in front of the validation array. It is important to put it there, as otherwise the callback will only apply to the element at index 0, and the element at index 1 will be compared to the string `'The value must be an array'`. That’s not what you want.
 
+By the way, in case you were wondering, [`nv.error`](#nv-error), [`nv.end`](#nv-end), and [`nv.other`](#nv-other) are all [symbols](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol).
+
 
 ## <a name="paths"></a>Paths
 
