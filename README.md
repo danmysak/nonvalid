@@ -17,7 +17,7 @@
 - [Paths](#paths)
 - [Regular navigation](#navigation)
 - [Safe navigation](#safe-navigation)
-- [Full reference (API)](#api)
+- [Full API reference](#api)
 
 
 ## <a name="installation"></a>Installation
@@ -416,7 +416,7 @@ nv({
 Magic!
 
 
-## <a name="api"></a>Full reference (API)
+## <a name="api"></a>Full API reference
 
 ### <a name="global-method"></a>Global method of `nonvalid`
 
