@@ -1,6 +1,6 @@
 # nonvalid
 
-`nonvalid` is a validation library that relieves you of necessity to traverse data structures manually but keeps your validation logic completely custom. The workflow is as follows: you describe the expected shape of your data and provide a callback for each piece of it that you’d like to validate. If any of the callbacks return an error (that is, any truthy value), this becomes the result of the validation. Otherwise, `false` is returned, which means that there is no error and the validation is successful.
+`nonvalid` is a validation library that relieves you of the necessity to traverse data structures manually but keeps your validation logic completely custom. The workflow is as follows: you describe the expected shape of your data and provide a callback for each piece of it that you’d like to validate. If any of the callbacks return an error (that is, any truthy value), this becomes the result of the validation. Otherwise, `false` is returned, which means that there is no error and the validation is successful.
 
 `nonvalid` is suited best for deep and self-referential validation. Want to check that the object supplied to your script contains only values that are either string arrays or names of other keys in this object? Need to verify that a structure of nested objects correctly describes a family tree? `nonvalid` is your guy!
 
